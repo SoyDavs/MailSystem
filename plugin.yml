@@ -1,0 +1,16 @@
+name: MailSystem
+main: SoyDavs\MailSystem\Main
+version: 1.0.0
+api: 5.0.0
+author: SoyDavs
+
+commands:
+  mail:
+    description: Mail system commands
+    usage: "/mail <signup|send|inbox>"
+    permission: mailsystem.command.mail
+
+permissions:
+  mailsystem.command.mail:
+    default: true
+    description: "Allows using the mail system"

@@ -1,0 +1,16 @@
+# Mail System Configuration
+
+# Suffix that will be appended to all mail addresses
+mail-suffix: "mcpe@server"
+
+# Maximum number of mails in inbox
+max-inbox-size: 50
+
+# Maximum number of mails in sent folder
+max-sent-size: 30
+
+# Maximum number of drafts
+max-drafts: 10
+
+# Time in seconds before marking a mail as "old" (for cleanup purposes)
+mail-expiry: 604800  # 7 days
